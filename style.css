@@ -1,9 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -152,15 +158,6 @@ section:hover {
 
 .project-card h3 {
   color: #38bdf8;
-}
-.button-Blur-layer-0 {
-  position: fixed;
-  width: 100%;
-  height: 40px;
-  background-color: rgb(15, 23, 42, 0.5);
-  backdrop-filter: blur(2px);
-  bottom: 0;
-  z-index: 100;
 }
 
 .button-Blur-layer {
